@@ -2,12 +2,12 @@
 #include "gamestate.h"
 
 
-Game ZEST;
+Game APP;
 
 int main( int argc, char* args[] )
 {
-    while( ZEST.getState() == RUNNING ){
-        ZEST.run();
+    while( APP.getState() == RUNNING ){
+        APP.run();
     }
    
     close();
